@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+section{
+    padding: 100px 0px ;
+}
+/*--Typography--*/
+h1{
+    font-size: 19.51pt;
+    line-height: 20pt;
+    margin-bottom: 15pt;
+    color: #12202f;
+}
+h2{
+    font-size: 5.05pt;
+    line-height: 7.8pt;
+    margin-bottom: 10pt;
+    color: #12202f;    
+}
+h3{
+    font-size: 9.66px;
+    line-height: 20px;
+    margin-bottom: 15px;
+    color: #12202f;  
+}
+
+p{
+    font-size: 4.07pt;
+    line-height: 7.46pt; 
+}
+
+/*--Typography--*/
+/*--Header--*/
+    header{
+        padding: 0px 129px ;
+        background: #ebe3cd;
+        position: relative;
+    }
+    .navbar{
+        padding: 0px;
+    }
+    .navbar-nav .nav-link{
+        padding: 74px 20px;
+        color: #ffffff;
+    
+    }
+    .nav-link active{
+        color: #ffffff;
+    }
+
+
+
+
+/*--End Header--*/
+
+/*--Banner--*/
+.theme-bg{
+    background-color: #ebe3cd;
+}
