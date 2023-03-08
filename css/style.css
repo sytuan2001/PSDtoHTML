@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 body{
     font-family: 'Montserrat', sans-serif;
@@ -13,13 +14,13 @@ section{
 h1{
     font-size: 19.51pt;
     line-height: 20pt;
-    margin-bottom: 15pt;
+    margin-bottom: 15px;
     color: #12202f;
 }
 h2{
     font-size: 5.05pt;
     line-height: 7.8pt;
-    margin-bottom: 10pt;
+    margin-bottom: 10px;
     color: #12202f;    
 }
 h3{
@@ -41,6 +42,22 @@ p{
         background: #ebe3cd;
         position: relative;
     }
+    .container {
+        background: url(/images/Toolbar.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        position: relative;
+    }
+    .lamp-container{
+        position: absolute;
+        width: 70px;
+        top: 58%;
+        right: 11%;
+    }
+    .lamp{
+        width: 100%;
+    }
     .navbar{
         padding: 0px;
     }
@@ -61,4 +78,12 @@ p{
 /*--Banner--*/
 .theme-bg{
     background-color: #ebe3cd;
+}
+.img-fluitd{
+    max-width: 700px;
+    height: auto;
+}
+.img-plant{
+    max-width: 700px;
+    height: auto;
 }
