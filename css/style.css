@@ -5,36 +5,55 @@
 }
 body{
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    font-size: 16px;
 }
 section{
-    padding: 100px 0px ;
+    background: #ebe3cd ;
+    padding: 200px 0px ;
+    
+}
+@media (max-width:1600px){
+    section{
+        padding: 80px 0px;
+    }
 }
 /*--Typography--*/
 h1{
-    font-size: 19.51pt;
-    line-height: 20pt;
+    font-size: 60px;
+    line-height: 70px;
     margin-bottom: 15px;
     color: #12202f;
 }
 h2{
-    font-size: 5.05pt;
-    line-height: 7.8pt;
-    margin-bottom: 10px;
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 90px;
     color: #12202f;    
 }
 h3{
-    font-size: 9.66px;
-    line-height: 20px;
+    font-size: 40px;
+    line-height: 30px;
     margin-bottom: 15px;
     color: #12202f;  
 }
 
 p{
-    font-size: 4.07pt;
-    line-height: 7.46pt; 
+    font-size: 25px;
+    line-height: 19pt; 
 }
-
+.button {
+    background-color: #f44336; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-size: contain;
+  } 
 /*--Typography--*/
 /*--Header--*/
     header{
@@ -51,9 +70,9 @@ p{
     }
     .lamp-container{
         position: absolute;
-        width: 70px;
-        top: 58%;
-        right: 11%;
+        width: 60px;
+        top: 68%;
+        right: 20%;
     }
     .lamp{
         width: 100%;
@@ -62,7 +81,7 @@ p{
         padding: 0px;
     }
     .navbar-nav .nav-link{
-        padding: 74px 20px;
+        padding: 74px 20px !important;
         color: #ffffff;
     
     }
@@ -76,14 +95,57 @@ p{
 /*--End Header--*/
 
 /*--Banner--*/
-.about{
+
+
+.theme-bg{
     background-color: #ebe3cd;
 }
-.img-fluitd{
-    max-width: 700px;
+.img-ilustration{
+    max-width: 7000px;
     height: auto;
 }
 .img-plant{
     max-width: 700px;
     height: auto;
 }
+.about-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* --Modules-part--*/
+.title-txt p{
+    color: #eaa73b;
+    margin-bottom: 30px;
+}
+.title-txt{
+    text-align: center;
+}
+.box-module{
+    padding: 20px;
+    text-align: center;
+}
+.col-md-4{
+    text-align: center;
+    background: url(/images/Shape_.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 56px;
+    margin: 40px;
+}
+
+.button-1 {
+    background-color: #f44336; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-size: contain;
+  } 
+
+/* --Modeules-part--*/
