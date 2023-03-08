@@ -117,15 +117,17 @@ p{
 .title-txt p{
     color: #eaa73b;
     margin-bottom: 30px;
+    
 }
 .title-txt{
     text-align: center;
+    background-color: #ebe3cd;
 }
 .box-module{
     padding: 20px;
     text-align: center;
 }
-.col-md-4{
+.abc{
     text-align: center;
     background: url(/images/Shape_.png);
     background-repeat: no-repeat;
@@ -147,5 +149,17 @@ p{
     cursor: pointer;
     background-size: contain;
   } 
-
+  .button-2 {
+    background-color: #6bb99c; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-size: contain;
+  } 
 /* --Modeules-part--*/
