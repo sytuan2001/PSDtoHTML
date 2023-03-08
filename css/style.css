@@ -27,8 +27,9 @@ h1{
 h2{
     font-size: 50px;
     line-height: 50px;
-    margin-bottom: 90px;
-    color: #12202f;    
+    margin-bottom: 70px;
+    color: #12202f;  
+    padding: 50px;
 }
 h3{
     font-size: 40px;
@@ -129,6 +130,10 @@ p{
 .about-txt{
     text-align: center;
     background-color: #ebe3cd;
+}
+.container-xl{
+    background:url(/images/ShapeChef.png);
+    background-size: 100% 100%;
 }
 .box-module{
     padding: 20px;
