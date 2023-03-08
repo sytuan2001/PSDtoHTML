@@ -12,11 +12,11 @@ section{
     padding: 200px 0px ;
     
 }
-@media (max-width:1600px){
+/* @media (max-width:1600px){
     section{
         padding: 80px 0px;
     }
-}
+} */
 /*--Typography--*/
 h1{
     font-size: 60px;
@@ -67,6 +67,9 @@ p{
         background-position: center;
         background-size: contain;
         position: relative;
+    }
+    .container-lg{
+        background-color: #ebe3cd;
     }
     .lamp-container{
         position: absolute;
@@ -123,6 +126,10 @@ p{
     text-align: center;
     background-color: #ebe3cd;
 }
+.about-txt{
+    text-align: center;
+    background-color: #ebe3cd;
+}
 .box-module{
     padding: 20px;
     text-align: center;
@@ -134,6 +141,9 @@ p{
     background-size: cover;
     padding: 56px;
     
+}
+.a {
+    background-color: #ebe3cd;
 }
 
 .button-1 {
@@ -161,5 +171,6 @@ p{
     margin: 4px 2px;
     cursor: pointer;
     background-size: contain;
+    margin-bottom: 115px;
   } 
 /* --Modeules-part--*/
