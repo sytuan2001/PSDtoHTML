@@ -6,6 +6,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
+    background: #ebe3cd;
 }
 section{
     background: #ebe3cd ;
@@ -27,7 +28,7 @@ h1{
 h2{
     font-size: 50px;
     line-height: 50px;
-    margin-bottom: 70px;
+    /* margin-bottom: 70px; */
     color: #12202f;  
     padding: 50px;
 }
@@ -39,8 +40,8 @@ h3{
 }
 
 p{
-    font-size: 25px;
-    line-height: 19pt; 
+    font-size: 15px;
+    line-height: 24pt; 
 }
 .button {
     background-color: #f44336; 
@@ -54,20 +55,34 @@ p{
     margin: 4px 2px;
     cursor: pointer;
     background-size: contain;
+    border-radius: 48px;
+    margin-right: 308px
   } 
 /*--Typography--*/
 /*--Header--*/
     header{
-        padding: 0px 129px ;
-        background: #ebe3cd;
-        position: relative;
+        margin: 0px auto;
+        width: 993px;
+        background-color: #12202f;
+      
+    }
+    header .navbar {
+        margin-top: 95px;
+        height: 69px;
+        border-radius: 42px;
+        margin-left: -100px;
+        width: 1243px;
+        background-color: #12202f;
     }
     .container {
-        background: url(/images/Toolbar.png);
+        
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
         position: relative;
+    }
+    .container fluit{
+        margin-left: 65px
     }
     .container-lg{
         background-color: #ebe3cd;
@@ -92,7 +107,10 @@ p{
     .nav-link active{
         color: #ffffff;
     }
-
+    .nav-logo{
+        margin-right: 245px;
+        margin-left: 65px;
+    }
 
 
 
@@ -163,6 +181,7 @@ p{
     margin: 4px 2px;
     cursor: pointer;
     background-size: contain;
+    border-radius: 68px;
   } 
   .button-2 {
     background-color: #6bb99c; 
@@ -177,5 +196,6 @@ p{
     cursor: pointer;
     background-size: contain;
     margin-bottom: 115px;
+    border-radius: 68px;
   } 
 /* --Modeules-part--*/
