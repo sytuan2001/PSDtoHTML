@@ -3,15 +3,18 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     background: #ebe3cd;
 }
+
 section {
-    background: #ebe3cd ;
-    padding: 100px 0px ;
+    background: #ebe3cd;
+    padding: 100px 0px;
 }
+
 /*--Typography--*/
 h1 {
     font-size: 70px;
@@ -19,33 +22,39 @@ h1 {
     margin-bottom: 35px;
     color: #12202f;
 }
+
 h2 {
     font-size: 50px;
     line-height: 50px;
     margin-bottom: 30px;
-    color: #12202f;  
-    
+    color: #12202f;
+
 }
+
 h3 {
     font-size: 40px;
     line-height: 30px;
     margin-bottom: 15px;
-    color: #12202f;  
+    color: #12202f;
 }
+
 h4 {
     font-size: 30px;
     line-height: 25px;
     color: #eaa73b;
 }
+
 h5 {
     font-size: 30px;
     line-height: 25px;
     color: #6bb99c;
 }
+
 p {
     font-size: 15px;
-    line-height: 24pt; 
+    line-height: 24pt;
 }
+
 /*--Typography--*/
 /*--Header--*/
 header {
@@ -53,6 +62,7 @@ header {
     width: 993px;
     background-color: #12202f;
 }
+
 header .navbar {
     margin-top: 95px;
     height: 69px;
@@ -61,39 +71,48 @@ header .navbar {
     width: 1243px;
     background-color: #12202f;
 }
+
 .container fluit {
     margin-left: 65px
 }
+
 .container-lg {
     background-color: #ebe3cd;
 }
+
 .lamp-container {
     position: absolute;
     width: 60px;
     top: 68%;
     right: 20%;
 }
+
 .lamp {
     width: 100%;
 }
+
 .navbar {
     padding: 0px;
 }
+
 .navbar-nav .nav-link {
     padding: 74px 20px !important;
     color: #ffffff;
 }
+
 .nav-link active {
     color: #ffffff;
 }
+
 .nav-logo {
     margin-right: 245px;
     margin-left: 65px;
 }
+
 /*--End Header--*/
 /* button */
 .button {
-    background-color: #f44336; 
+    background-color: #f44336;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -106,9 +125,10 @@ header .navbar {
     background-size: contain;
     border-radius: 48px;
     margin-right: 308px
-} 
+}
+
 .button-1 {
-    background-color: #f44336; 
+    background-color: #f44336;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -120,9 +140,10 @@ header .navbar {
     cursor: pointer;
     background-size: contain;
     border-radius: 68px;
-} 
+}
+
 .button-2 {
-    background-color: #6bb99c; 
+    background-color: #6bb99c;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -135,33 +156,41 @@ header .navbar {
     background-size: contain;
     margin-bottom: 115px;
     border-radius: 68px;
-} 
+}
+
 /* End button */
 .img-ilustration {
-    max-width: 900px;
+    max-width: 750px;
     height: auto;
     margin-right: 155px;
 }
+
 .img-plant {
     max-width: 700px;
     height: auto;
 }
+
 .img-john {
-    margin:25px
+    margin: 25px
 }
+
 .about__content {
     margin-left: 130px;
     flex-direction: column;
 }
+
 .title-txt {
     text-align: center;
 }
+
 .about-txt {
     text-align: center;
 }
-.about-customers{
+
+.about-customers {
     text-align: center;
 }
+
 .box-module {
     border: solid 1px #ffffff;
     padding: 20px;
@@ -170,6 +199,7 @@ header .navbar {
     background-color: white;
     margin: 40px;
 }
+
 .box-customer {
     border: solid 1px #ffffff;
     padding: 20px;
@@ -177,6 +207,7 @@ header .navbar {
     border-radius: 48px;
     background-color: #faf8ef;
 }
+
 .container-xl {
     border: solid 1px #ffffff;
     padding: 20px;
@@ -184,32 +215,57 @@ header .navbar {
     border-radius: 63px;
     margin-bottom: 50px;
 }
+
 .about-content1 {
     margin: 60px;
 }
+
 .about-content2 {
     margin: 12px;
 }
+
 .about-content3 {
     margin: 50px;
 }
+
 .container-xxl {
     text-align: center;
     background-color: #faf8ef;
     border-radius: 63px;
 }
+
 .customer {
     margin-right: 300px;
     margin-left: 300px;
 }
+
 .message {
     text-align: center;
 }
+
 /* footer */
 footer {
-    background:#fa9d30;
+    background: #fa9d30;
 }
+
 .footer-top {
-    padding: 80px 0px;
+    padding: 50px 0px;
 }
+
+footer .info-heading {
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 700px;
+}
+
+footer .search {
+    margin-top: 50px;
+    width: 400px;
+    border: solid 1px #656565;
+    color: #fa9d30;
+    border-radius: 36px;
+    height: 45px;
+    text-emphasis: none;
+}
+
 /* end footer */
