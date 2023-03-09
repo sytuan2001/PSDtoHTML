@@ -154,17 +154,21 @@ p{
     background-size: 100% 100%;
 }
 .box-module{
+    border: solid 1px #ffffff;
     padding: 20px;
     text-align: center;
+    border-radius: 48px;
+    background-color: white;
+    margin: 35px;
 }
-.abc{
+/* .abc{
     text-align: center;
     background: url(/images/Shape_.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 56px;
     
-}
+} */
 .a {
     background-color: #ebe3cd;
 }
